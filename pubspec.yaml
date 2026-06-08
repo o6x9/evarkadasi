@@ -1,13 +1,15 @@
 name: evarkadasi
 description: >-
-  EvArkadaşım - Roommate Expense Manager. A premium lifestyle app for managing
-  shared expenses and maintaining harmony among roommates with Japandi design.
+  EvArkadaşım is a premium lifestyle Flutter app for managing shared expenses
+  among roommates with a beautiful Japandi design system.
+
 publish_to: none
 
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
 
 dependencies:
   flutter:
@@ -49,3 +51,5 @@ flutter:
           weight: 600
         - asset: assets/fonts/Poppins-Light.ttf
           weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
